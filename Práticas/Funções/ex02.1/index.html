@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funcao</title>
+</head>
+<body>
+    <div id="res">
+
+    </div>
+    <script>
+        var res = document.getElementById('res')
+        function verificarnumero(num){
+            if(num % 2 === 0){
+                true  //par
+            }else{
+                false //impar
+            }
+        }
+
+        var num = Number (prompt('digite um numero'))
+        var resultado = verificarnumero(num)
+        if(resultado){
+            res.innerHTML = `o número ${num} é impar`
+        }else{
+            res.innerHTML = `o número ${num} é par`
+        }
+    </script>
+</body>
+</html>

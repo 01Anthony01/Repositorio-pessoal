@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicoes</title>
+</head>
+<body>
+    <h1>Analisando a sua idade</h1>
+    <div id="res">
+
+    </div>
+
+    <script>
+        var idade = Number (prompt('qual a sua idade?'))
+        var res = document.getElementById('res')
+        if(idade < 18){
+            res.innerHTML = 'Voce é de menor'
+        }else{
+            res.innerHTML = 'Voce é de maior'
+        }
+
+    </script>
+</body>
+</html>
