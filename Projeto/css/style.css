@@ -43,3 +43,19 @@ div#conteudo{
     
 }
 
+button#enter{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 20px 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button#enter:hover{
+    background-color: white;
+    color: #3296CA;
+    transition: background-color .5s;
+}
