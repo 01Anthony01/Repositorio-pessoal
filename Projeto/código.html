@@ -4,29 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto novo</title>
-    <link rel="shortcut icon" href="favicon/icon simples.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="Assets/favicon/icon simples.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
     <main >
         <header>
-            <img src="favicon/icon simples2.png" alt="logo">
+            
 
-            <menu>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1>logo</h1>
+                </div>
+
+
+
+
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Notícias</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">contato</a></li>
+                    </ul>
+                </div>
                 
-                <a href="">HOME</a>
-                <a href="">Notícias</a>
-                <a href="">Sobre</a>
-                <a href="">Contato</a>
-                
-            </menu>
+                <div class="login-button">
+                    <button class="button"> <a href="">Login</a></button>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menushow()"><img src="Assets/IMG/menu_white_36dp.svg" alt="icon do menu" class="icon"></button>
+                </div>
+            </nav>
+            <!-- barra de navegacao pc acima -->
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Notícias</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">contato</a></li>
+                </ul>
+                <!-- botao de login -->
+                <div class="login-button">
+                    <button class="button"> <a href="">Login</a></button>
+                </div>
+            </div>
+
+
+
             <hr>
         </header>
 
         <div id="conteudo">
             <h1>Bem vindo ao meu site</h1>
              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quas sequi</p>
-            <button id="enter">
+            <button class="button">
                 Enter
             </button>
 
