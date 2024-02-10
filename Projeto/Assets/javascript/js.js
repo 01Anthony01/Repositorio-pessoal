@@ -5,4 +5,4 @@ function menushow(){
     }else{
         menumobile.classList.add('open')
     }
-}
+}    
