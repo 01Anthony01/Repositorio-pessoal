@@ -16,3 +16,4 @@ let carro = {
 for(let chave in carro){
     console.log(chave + ": " + pessoa[chave]);
 }
+

@@ -91,3 +91,7 @@ console.log(carro)
 //Para deletar basta usarmos o operador delete, seguindo a lógica do objeto.propriedade:
 
 delete carro.marca;
+console.log(carro)
+
+//Conclusão
+//Neste artigo tivemos o primeiro contato com a manipulação de arrays e objetos no JavaScript, podemos perceber que a linguagem permite trabalhar esses conceitos de forma flexível e eficiente.
