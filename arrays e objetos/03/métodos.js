@@ -11,6 +11,7 @@ numberlist.forEach((number , index , array) => {
 })
 
 myhtml += '</ul>'
+console.log(myhtml)
 
 //.map()
 //Nós utilizamos o .map() quando queremos fazer alguma modificação nos elementos de um Array.
@@ -78,3 +79,4 @@ const new_list = listadeusers.filter((user , index , array) => {
 
 console.log(listadeusers)
 console.log(new_list)
+
