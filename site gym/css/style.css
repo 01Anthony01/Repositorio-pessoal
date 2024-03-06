@@ -1,1 +1,42 @@
 @charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.logo-principal{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+div.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+div.list-nav{
+    width: 20%;
+   margin: 0 auto;
+    
+}
+  
+.list-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap')
+
+
+
+
