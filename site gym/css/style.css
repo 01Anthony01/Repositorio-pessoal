@@ -10,31 +10,46 @@
 
 
 
-.logo-principal{
+.nav-bar{
+  height: 70px;
+}
+
+.list-nav-container{
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
+    
+   
+
+  }  
+
+  .list{
+    width: 40%;
     margin: 0 auto;
-}
+  }
 
-div.nav-bar{
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 6rem;
-}
+  .list-item{
+    display: inline-block;
+    margin-right: 20px;
+  }
 
-div.list-nav{
-    width: 20%;
-   margin: 0 auto;
+.logo-principal{
+    float: left;
+    width: 5%;
+    height: auto;
     
 }
-  
-.list-nav ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
+
+.nav-button , .nav-button2{
+    float: right;
 }
+
+hr{
+  color: rgba(128, 128, 128, 0) ;
+}
+
+
+
+  
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap')
 
 
