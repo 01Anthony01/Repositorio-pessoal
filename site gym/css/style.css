@@ -15,13 +15,21 @@
 }
 
 .list-nav-container{
-    width: 100%;
-    
+  width: 100%;
+  background-color: rgb(30, 0, 255);
+  padding-bottom: 20px;
    
 
   }  
 
+  .container-button{
+     
+     
+  }
+
   .list{
+    background-color: aqua;
+    padding-top: 22px;
     width: 40%;
     margin: 0 auto;
   }
@@ -39,16 +47,23 @@
 }
 
 .nav-button , .nav-button2{
-    float: right;
+  float: right;
+ 
+  
 }
 
 hr{
-  color: rgba(128, 128, 128, 0) ;
+  background-color: black;
+}
+    
+  ::-webkit-scrollbar-track{
+  
 }
 
-
-
+ ::-webkit-scrollbar-thumb{
+  background-color: #888888;
   
+ }
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap')
 
