@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    /* height: 500px; */
+    /* align-items: start;mexe no eixo cruzado os itens, posso usar os mesmos metodos que eu usei no justify-content */
+    display: flex;  
+    background-color: #f4f4f4;
+    
+    /* justify-content: end; mexe no eixo principal , posso usar o end, o start, o center e o space-arround, mexe no eixo principal */
+    /* flex-direction: column; para criar uma coluna e conseguir mexer no eixo vertical  */
+    /* flex-wrap: wrap ; quebra o elemento pra linha de baixo quando n tem mais espaço para colocar */
+
+
+}
+
+.item{
+    border-radius: 5px;
+    /* flex-basis: 300px; define uma largura mínima */
+    flex: 1 0 0; /*esse aqui é um short hand que inculi o crescimento como primeiro, encolhimento como segundo e largura-base como ultimo*/
+    height: 100px;
+    background-color: #254de4;
+    margin: 10px;
+    color: white;
+    /* flex-grow: 3; Mexe no crescimento do elemento */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* AGORA PRA QUANDO EU QUISER MEXER SO 1 UM ITEM DA LISTA */
+.item:nth-of-type(1) {
+    /* align-self: start; serve para mexer na linha de um so elemento, e ela se usa na vertical */
+    /* order: 1; muda a ordem dos elementos*/
+    /* flex-grow: 1; */
+     /* flex-shrink: 4; É UMA taxa de encolhimento responsiva */
+}
+
+.item:nth-of-type(2) {
+    /* align-self: center; serve para mexer na linha de um so elemento, e ela se usa na vertical */
+    /* order: 3; */
+    /* flex-basis: 50px; serve para aumentar a largura e definir a minima largura posivel ent mesmo q o navegador diminua n vai ser menor q 50px nesse caso */
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+ }
+
+.item:nth-of-type(3) {
+   /* align-self: end; serve para mexer na linha de um so elemento, e ela se usa na vertical */
+   /* order: 2; */
+   /* flex-basis: 80px; */
+   /* flex-grow: 2; */
+   /* flex-shrink: 2; */
+}

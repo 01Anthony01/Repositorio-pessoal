@@ -1,0 +1,124 @@
+
+.clr{
+    clear: both;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: brown;
+}
+
+.container{
+    width: 60%;
+}
+
+
+.my-form{
+    padding: 20px;
+    
+}
+
+.form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type = text] , .my-form textarea{
+    padding-right: 8px;
+    width: 95%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+}
+
+#sidebar{
+    border-radius: 5px;
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+/* POSITIONS
+STATIC - > É o valor padrão que nos permite utilizar proriedades bottom, top, left, right
+
+RELATIVE
+ABSOLUTE - > o absoluto nos permite posicionar no lugar q quisermos dentro de um elemento relativo
+
+FIXED - > mantem o elemento na posicao inpdendente da onde vc esteja
+INITIAL
+INHERIT
+*/
+
+.p-box{
+    margin-top: 40px;  /*isso aqui é position relative e absolute*/
+    width: 800px;       /*relativo a gente da no container*/
+                        /*absolute a gente da no elemento q queremos posicionar*/
+    height: 500px;
+    border: 1px solid #000;
+    position: relative;
+    background-image: url('../img/fundominimalist.jpg');
+
+    background-position: 500px 600px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.p-box h1{
+     position: absolute;   
+    top: 20px;
+    left: 60px;
+}
+
+.p-box button{
+    position: absolute;
+    left: 500px;
+    bottom: 30px;
+}
+
+.fixo{
+    position: absolute;
+   background-color: #333;
+   color: white;
+   top: 300px;
+   position: fixed;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: rgb(0, 42, 255);
+}
+
+.my-list li:nth-child(7){
+    background: rgb(26, 255, 0);
+}
+
+.my-list li:nth-child(even){
+   background: #333;
+}

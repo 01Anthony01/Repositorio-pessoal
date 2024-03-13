@@ -23,7 +23,7 @@
   }  
 
   .container-button{
-     
+     margin-bottom: 30px;
      
   }
 
@@ -46,7 +46,11 @@
     
 }
 
-.nav-button , .nav-button2{
+.nav-button{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  margin-right: 25px;
   float: right;
  
   
