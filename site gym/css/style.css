@@ -49,12 +49,17 @@
 .nav-button{
   position: absolute;
   top: 30px;
-  right: 30px;
+  right: 50px;
   margin-right: 25px;
   float: right;
- 
-  
-}
+ }
+
+ .nav-button2{
+  position: absolute;
+  right: 10px;
+  top: 30px;
+ }
+
 
 hr{
   background-color: black;
