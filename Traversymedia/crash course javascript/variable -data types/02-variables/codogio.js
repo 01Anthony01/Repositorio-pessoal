@@ -10,3 +10,4 @@ console.log(arr)
 //declarar multiplas variaveis de um so vez
 
 let A, a , BA 
+a = 8

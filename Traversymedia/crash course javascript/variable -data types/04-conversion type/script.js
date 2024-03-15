@@ -10,6 +10,6 @@ let amount = 1
 // amount = String(amount)
 
 // maneiras de converter para um valor booleano
-amount = boolean(amount)
+// amount = Boolean(amount)
 
 console.log(amount , typeof amount);

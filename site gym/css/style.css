@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,13 +12,15 @@
 
 
 
+
+
 .nav-bar{
   height: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.158);
 }
 
 .list-nav-container{
   width: 100%;
-  background-color: rgb(30, 0, 255);
   padding-bottom: 20px;
    
 
@@ -28,42 +32,86 @@
   }
 
   .list{
-    background-color: aqua;
-    padding-top: 22px;
-    width: 40%;
+    
+    padding-top: 26px;
+    width: 60%;
     margin: 0 auto;
   }
 
   .list-item{
+   
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 30px;
   }
 
+
+
 .logo-principal{
+  position: absolute;
     float: left;
-    width: 5%;
+    width: 150px;
     height: auto;
+    background-color: #1D83EA;
+    top: 20px;
+    left: 40px;
     
 }
 
+a{
+  text-decoration: none;
+  color: #0a0a0a;
+  font-weight: 600;
+}
+
+.list #link-home{
+ color: #1D83EA;
+}
+
+.list .nav-link:hover{
+  text-decoration: underline;
+  color: #1D83EA;
+  transition: .3s;
+}
+
+
 .nav-button{
   position: absolute;
-  top: 30px;
+  top: 25px;
   right: 50px;
-  margin-right: 25px;
+  margin-right: 150px;
   float: right;
+  border: none;
+  background-color: white;
+  font-size: 15px;
+  
+ 
  }
 
  .nav-button2{
+  cursor: pointer;
   position: absolute;
-  right: 10px;
-  top: 30px;
+  right: 70px;
+  top: 9px;
+  background-color: #1D83EA;
+  border: none;
+  border-radius: 40px;
+  padding: 15px 25px;
+  font-size: 16px;
+  
+ }
+
+ .nav-button .link-button{
+  color: #1D83EA;
+  
+ }
+
+ .nav-button2 .link-button1{
+  color: #fff;
+  font-weight: bolder;
  }
 
 
-hr{
-  background-color: black;
-}
+
     
   ::-webkit-scrollbar-track{
   
