@@ -12,7 +12,7 @@
 
 
 
-
+/* barra de navegação */
 
 .nav-bar{
   height: 70px;
@@ -54,6 +54,7 @@
     background-color: #1D83EA;
     top: 20px;
     left: 40px;
+   
     
 }
 
@@ -74,6 +75,8 @@ a{
 }
 
 
+
+
 .nav-button{
   position: absolute;
   top: 25px;
@@ -82,7 +85,8 @@ a{
   float: right;
   border: none;
   background-color: white;
-  font-size: 15px;
+  font-size: 17px;
+ 
   
  
  }
@@ -102,6 +106,7 @@ a{
 
  .nav-button .link-button{
   color: #1D83EA;
+  font-weight: 500;
   
  }
 
@@ -109,6 +114,62 @@ a{
   color: #fff;
   font-weight: bolder;
  }
+
+ #icone-angle-down{
+  margin-left: 10px;
+  
+ }
+
+/* acima é tudo da barra de navegação */
+
+.titulo-principal{
+  font-weight: bolder;
+  font-size: 3.5em;
+ 
+}
+
+.titulo-principal2{
+  font-weight: bold;
+  color: #1D83EA;
+  font-size: 3.5em;
+}
+
+.content-principal{
+  background-color: #50ea1d;
+  display: flex;
+  
+ 
+ 
+}
+
+.Img-container-publi{
+  margin-top: 95px;
+  background-color: #1D83EA;
+  width: 70%;
+ 
+}
+
+.Img-publi{ 
+  width: 80%;
+  
+ 
+}
+
+.text-container{
+  margin-top: 95px;
+  background-color: aqua;
+  
+  
+}
+
+
+
+
+
+
+
+
+
 
 
 
