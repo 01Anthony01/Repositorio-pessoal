@@ -135,7 +135,7 @@ a{
 }
 
 .content-principal{
-  background-color: #50ea1d;
+  /* background-color: #50ea1d; */
   display: flex;
   
  
@@ -144,7 +144,6 @@ a{
 
 .Img-container-publi{
   margin-top: 95px;
-  background-color: #1D83EA;
   width: 70%;
  
 }
@@ -157,15 +156,47 @@ a{
 
 .text-container{
   margin-top: 95px;
-  background-color: aqua;
-  
-  
+  padding-left: 85px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.193);
+  height: 400px;
+}
+
+.text-description{
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.Message{
+  font-size: 1.2em;
+  margin-top: 60px;
+  font-weight: 500;
+}
+
+/* acima é todo o primeiro conteúdo da landing titulo principal, imagem principal, etc */
+
+
+
+.final-pagina{
+    background-color: #F3F4F5;
+    margin-top: 90px;
+    height: 220px;
+    text-align: center;
+}
+
+.list-footer{
+  list-style: none;
+}
+
+.list-item-footer{
+  display: inline-block;
 }
 
 
-
-
-
+.tittle-footer{
+  font-weight: 600;
+  font-size: 1.3em;
+  padding-top: 40px;
+}
 
 
 
