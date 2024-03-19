@@ -29,3 +29,4 @@ console.log(x)
 x = 50
 
 // operadores relacionais
+// <>(maior, menor)   !(diferente)  ||(OU) 

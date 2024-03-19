@@ -11,3 +11,5 @@ console.log(arr)
 
 let A, a , BA 
 a = 8
+
+console.log(a)
