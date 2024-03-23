@@ -124,14 +124,14 @@ a{
 
 .titulo-principal{
   font-weight: bolder;
-  font-size: 3.5em;
+  font-size: 4em;
  
 }
 
 .titulo-principal2{
   font-weight: bold;
   color: #1D83EA;
-  font-size: 3.5em;
+  font-size: 4em;
 }
 
 .content-principal{
@@ -143,6 +143,7 @@ a{
 }
 
 .Img-container-publi{
+  margin-left: 60px;
   margin-top: 95px;
   width: 70%;
  
@@ -155,10 +156,12 @@ a{
 }
 
 .text-container{
+  
+  width: 45%;
   margin-top: 95px;
-  padding-left: 85px;
+  margin-left: 75px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.193);
-  height: 400px;
+  height: 500px;
 }
 
 .text-description{
@@ -168,7 +171,7 @@ a{
 
 .Message{
   font-size: 1.2em;
-  margin-top: 60px;
+  margin-top: 80px;
   font-weight: 500;
 }
 
@@ -199,20 +202,38 @@ a{
 }
 
 
+@media screen and (max-width: 1015px){
+ 
 
+  .list{display: none;}
+
+  .container-button{display: none;}
+
+  .logo-principal{left: 10px;}
+
+
+  /* acima é barra de navegação */
+
+  .text-container{
+   margin-left: 20px;
+  }
+
+  .text-description{
+    font-size: 1.5em;
+  }
+
+ 
+}
+
+
+  
 
 
 
 
     
-  ::-webkit-scrollbar-track{
-  
-}
 
- ::-webkit-scrollbar-thumb{
-  background-color: #888888;
-  
- }
+ 
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap')
 
